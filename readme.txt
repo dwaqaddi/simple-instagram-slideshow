@@ -1,22 +1,21 @@
 === Plugin Name ===
-Donate link: http://example.com/
 Tags: instagram, slideshow, widget
 Requires at least: 3.0.1
 Tested up to: 3.8.1
-Stable tag: 0.7
-License: GPLv2 or later
+Stable tag: 1.0.1
+License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Displays latest Instagram images in a slideshow of configurable size.
 
 == Description ==
 
-This plugin displays your latest Instagram images in a slideshow widget. It is intentionally pretty bare-bones as most other plugins out the seem to offer dozens of bells and whistles. You can specify the following parameters:
+This plugin displays your latest Instagram images in a slideshow widget. It's intentionally pretty bare-bones as most other plugins out the seem to offer dozens of bells and whistles. You can specify the following parameters:
 
 * Width
 * Height
 * Amount of images
-* Display of like numbers
+* Display of "Like" numbers
 
 == Installation ==
 
@@ -32,9 +31,9 @@ If you don't know how to do this, please follow a tutorial like the following: <
 
 == Frequently Asked Questions ==
 
-= Cann you add a 'Like' function =
+= Can you add a "Like" function =
 
-Unfortunately, the Instagram API does not allow that. You can just output the number of "hearts" or you could "heart" your own pictures. To be able to get a visitor to "heart" a picture right in the widget, the visitor would need to allow your website read/write access to their account. It is highly unlikely a visitor would do that – just to "heart" an image.
+Unfortunately, the Instagram API does not allow that. You can just output the number of "hearts" or you could "heart" your own pictures. To be able to get a visitor to "heart" a picture right in the widget, the visitor would need to allow your website read/write access to their account. It's highly unlikely a visitor would do that – just to "heart" an image.
 
 = Trouble generating images =
 
@@ -49,6 +48,12 @@ This plugin uses timthumb (GPLv2) and Basic jQuery Slider (GPLv3) functionality.
 1. Settings
 
 == Changelog ==
+
+= 1.0.1 =
+Fixed typos.
+
+= 1.0 =
+* Changes to the repository.
 
 = 0.7 =
 * Initial release.

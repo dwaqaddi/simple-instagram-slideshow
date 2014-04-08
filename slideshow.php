@@ -3,7 +3,7 @@
 Plugin Name: Simple Instagram Slideshow
 Description: Displays latest Instagram images in a slideshow.
 Author: Marcel Bischoff
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://herrbischoff.com
 */
 

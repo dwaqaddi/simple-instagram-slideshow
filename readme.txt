@@ -2,7 +2,7 @@
 Tags: instagram, slideshow, widget
 Requires at least: 3.0.1
 Tested up to: 3.8.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,6 +48,9 @@ This plugin uses timthumb (GPLv2) and Basic jQuery Slider (GPLv3) functionality.
 1. Settings
 
 == Changelog ==
+
+= 1.0.2 =
+Small fixes.
 
 = 1.0.1 =
 Fixed typos.

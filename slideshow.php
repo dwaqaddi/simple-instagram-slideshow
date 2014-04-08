@@ -3,7 +3,7 @@
 Plugin Name: Simple Instagram Slideshow
 Description: Displays latest Instagram images in a slideshow.
 Author: Marcel Bischoff
-Version: 0.7
+Version: 1.0.1
 Author URI: http://herrbischoff.com
 */
 
@@ -24,7 +24,7 @@ class simple_instagram_slideshow extends WP_Widget {
     );
     $this->WP_Widget('simple-instagram-sidebar', 'Simple Instagram Slideshow', $widget_ops);
   }
- 
+
   function form( $instance ) {
     $instance = wp_parse_args( (array) $instance, array(
       'title' => '',
@@ -52,7 +52,7 @@ class simple_instagram_slideshow extends WP_Widget {
   <p><label for="<?php echo $this->get_field_id( 'likes' ); ?>">Display Likes&nbsp;&nbsp;&nbsp;<input id="<?php echo $this->get_field_id( 'likes' ); ?>" name="<?php echo $this->get_field_name( 'likes' ); ?>" type="checkbox" <?php checked( $likes  == 'on', true); ?> /></label></p>
 <?php
   }
- 
+
   function update($new_instance, $old_instance) {
     $instance = $old_instance;
     $instance['title'] = $new_instance['title'];
@@ -67,7 +67,7 @@ class simple_instagram_slideshow extends WP_Widget {
 
   function widget($args, $instance) {
     extract($args, EXTR_SKIP);
- 
+
     echo $before_widget;
     $title = empty( $instance['title'] ) ? ' ' : apply_filters( 'widget_title', $instance['title'] );
     $user_id = $instance['user_id'];
@@ -118,6 +118,6 @@ class simple_instagram_slideshow extends WP_Widget {
 
     echo $after_widget;
   }
- 
+
 }
 add_action( 'widgets_init', create_function('', 'return register_widget("simple_instagram_slideshow");') );?>

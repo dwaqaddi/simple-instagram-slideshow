@@ -1,10 +1,9 @@
 === Plugin Name ===
-Donate link: http://example.com/
 Tags: instagram, slideshow, widget
 Requires at least: 3.0.1
 Tested up to: 3.8.1
-Stable tag: 0.7
-License: GPLv2 or later
+Stable tag: 1.0
+License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Displays latest Instagram images in a slideshow of configurable size.
@@ -49,6 +48,9 @@ This plugin uses timthumb (GPLv2) and Basic jQuery Slider (GPLv3) functionality.
 1. Settings
 
 == Changelog ==
+
+= 1.0 =
+* Changes to the repository.
 
 = 0.7 =
 * Initial release.
